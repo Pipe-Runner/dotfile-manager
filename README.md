@@ -111,5 +111,6 @@ https://github.com/dpayne/cli-visualizer
 https://www.reddit.com/r/i3wm/comments/516e8c/tap_to_click_touchpad/?st=jgqkx25d&sh=dd93b234
 
 #### Task 13: Add Themes to Lxappearance ( ~/.themes and ~/.icons )
-https://www.gnome-look.org/p/1013698/-
+https://www.gnome-look.org/p/1013698/-  
+
 https://forum.lxde.org/viewtopic.php?t=326#p1068
