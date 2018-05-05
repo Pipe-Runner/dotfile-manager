@@ -31,6 +31,8 @@ sub pull(){
 	`cp -ur ~/.config/Code $dirname/../../scripts/.config/Code`;
 	# i3 scripts
 	`cp -ur ~/.i3_scripts $dirname/../../scripts/`;
+	# fonts
+	`cp -ur ~/.fonts $dirname/../../scripts/`;
 }
 
 # ===========================================================================================================================
