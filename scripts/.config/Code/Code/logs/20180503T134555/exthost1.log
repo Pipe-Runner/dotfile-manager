@@ -1,0 +1,22 @@
+[2018-05-03 13:45:58.502] [exthost1] [info] extension host started
+[2018-05-03 13:45:58.527] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-05-03 13:45:58.527] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-05-03 13:45:58.589] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-05-03 13:45:58.589] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/git/out/main
+[2018-05-03 13:45:58.663] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-05-03 13:45:58.663] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-05-03 13:45:58.680] [exthost1] [info] eager extensions activated
+[2018-05-03 13:47:21.226] [exthost1] [info] extension host started
+[2018-05-03 13:47:21.247] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-05-03 13:47:21.247] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-05-03 13:47:21.293] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-05-03 13:47:21.293] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/git/out/main
+[2018-05-03 13:47:21.350] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-05-03 13:47:21.350] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-05-03 13:47:21.361] [exthost1] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"activationEvent":"*"}
+[2018-05-03 13:47:21.361] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/Shan.code-settings-sync-2.9.2/out/src/extension
+[2018-05-03 13:47:21.576] [exthost1] [info] eager extensions activated
+[2018-05-03 14:53:59.390] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-05-03 14:53:59.390] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2018-05-03 14:53:59.411] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-05-03 14:53:59.411] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/json/client/out/jsonMain

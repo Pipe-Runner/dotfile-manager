@@ -1,7 +1,8 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
-require "./modules/data_backup/Zip_unzip.pl";
+require "./modules/data_backup/Data_backup.pl";
+require "./modules/script_backup/Script_backup.pl";
 
 print "=========================== Utility 2.0 =============================\n";
 
@@ -19,4 +20,5 @@ print "=========================== Utility 2.0 =============================\n";
 # chomp($user_choice);
 # print $user_choice;
 
-# Zip_unzip::spit_zip();
+# Data_backup::spit_zip();
+Script_backup::pull();

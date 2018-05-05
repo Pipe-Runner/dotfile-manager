@@ -1,0 +1,36 @@
+[2018-05-03 18:53:32.575] [exthost1] [info] extension host started
+[2018-05-03 18:53:32.598] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-05-03 18:53:32.598] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-05-03 18:53:32.654] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-05-03 18:53:32.654] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/git/out/main
+[2018-05-03 18:53:32.722] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-05-03 18:53:32.722] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-05-03 18:53:32.737] [exthost1] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2018-05-03 18:53:32.737] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/Equinusocio.vsc-material-theme-2.0.1/extensions/material.theme.config.js
+[2018-05-03 18:53:32.745] [exthost1] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2018-05-03 18:53:32.745] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/PKief.material-icon-theme-3.3.0/out/src/extension
+[2018-05-03 18:53:32.786] [exthost1] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"activationEvent":"*"}
+[2018-05-03 18:53:32.786] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/Shan.code-settings-sync-2.9.2/out/src/extension
+[2018-05-03 18:53:33.088] [exthost1] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2018-05-03 18:53:33.088] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2018-05-03 18:53:33.099] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-05-03 18:53:33.099] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/dbaeumer.vscode-eslint-1.4.8/client/out/extension
+[2018-05-03 18:53:33.151] [exthost1] [info] eager extensions activated
+[2018-05-03 19:23:40.968] [exthost1] [info] extension host started
+[2018-05-03 19:23:40.997] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-05-03 19:23:40.997] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-05-03 19:23:41.048] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-05-03 19:23:41.048] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/git/out/main
+[2018-05-03 19:23:41.112] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-05-03 19:23:41.112] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-05-03 19:23:41.124] [exthost1] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2018-05-03 19:23:41.124] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/Equinusocio.vsc-material-theme-2.0.1/extensions/material.theme.config.js
+[2018-05-03 19:23:41.130] [exthost1] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2018-05-03 19:23:41.130] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/PKief.material-icon-theme-3.3.0/out/src/extension
+[2018-05-03 19:23:41.167] [exthost1] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"activationEvent":"*"}
+[2018-05-03 19:23:41.167] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/Shan.code-settings-sync-2.9.2/out/src/extension
+[2018-05-03 19:23:41.420] [exthost1] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2018-05-03 19:23:41.420] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2018-05-03 19:23:41.428] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-05-03 19:23:41.428] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/dbaeumer.vscode-eslint-1.4.8/client/out/extension
+[2018-05-03 19:23:41.474] [exthost1] [info] eager extensions activated

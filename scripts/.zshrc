@@ -2,17 +2,17 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/home/humble/.oh-my-zsh
+export ZSH=/home/humble_d/.oh-my-zsh
 
 # ----------------------------------------------------plugin based custom code--------------------------------------------------
 
 # Set name of the theme to load
 ZSH_THEME="powerlevel9k/powerlevel9k"
-POWERLEVEL9K_MODE='awesome-fontconfig'
+POWERLEVEL9K_MODE='nerdfont-complete'
 
 # powerlevel9k settings
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status dir_writable dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(virtualenv background_jobs context)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir_writable dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(virtualenv background_jobs)
 
 # powerlevel context settings
 POWERLEVEL9K_ALWAYS_SHOW_CONTEXT="true"
@@ -30,7 +30,7 @@ POWERLEVEL9K_DIR_OMIT_FIRST_CHARACTER="false"
 # color
 POWERLEVEL9K_DIR_HOME_BACKGROUND='082'
 POWERLEVEL9K_DIR_HOME_FOREGROUND='235'
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND='039'
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND='014'
 POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND='235'
 POWERLEVEL9K_DIR_DEFAULT_BACKGROUND='214'
 POWERLEVEL9K_DIR_DEFAULT_FOREGROUND='235'
@@ -90,7 +90,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # added by Anaconda2 installer
-# export PATH="/home/humble/anaconda2/bin:$PATH"
+# export PATH="/home/humble_d/anaconda2/bin:$PATH"
 
 # mozilla configuration file
 # export MOZCONFIG=~/Projects/collaboration/Firefox_src/mozilla-unified/mozconfig
