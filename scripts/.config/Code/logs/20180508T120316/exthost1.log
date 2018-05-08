@@ -78,3 +78,27 @@
 [2018-05-08 23:37:14.475] [exthost1] [info] eager extensions activated
 [2018-05-08 23:37:26.831] [exthost1] [info] ExtensionService#_doActivateExtension henriiik.vscode-perl {"startup":false,"activationEvent":"onLanguage:perl"}
 [2018-05-08 23:37:26.832] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/henriiik.vscode-perl-1.14.4/out/src/extension
+[2018-05-09 00:04:04.388] [exthost1] [info] extension host started
+[2018-05-09 00:04:04.417] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-05-09 00:04:04.417] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-05-09 00:04:04.484] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-05-09 00:04:04.484] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/git/out/main
+[2018-05-09 00:04:04.551] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-05-09 00:04:04.551] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-05-09 00:04:04.564] [exthost1] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme {"startup":true,"activationEvent":"*"}
+[2018-05-09 00:04:04.564] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/Equinusocio.vsc-material-theme-2.0.1/extensions/material.theme.config.js
+[2018-05-09 00:04:04.569] [exthost1] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2018-05-09 00:04:04.569] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/PKief.material-icon-theme-3.4.0/out/src/extension
+[2018-05-09 00:04:04.603] [exthost1] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"activationEvent":"*"}
+[2018-05-09 00:04:04.603] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/Shan.code-settings-sync-2.9.2/out/src/extension
+[2018-05-09 00:04:04.850] [exthost1] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2018-05-09 00:04:04.850] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2018-05-09 00:04:04.857] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-05-09 00:04:04.857] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/dbaeumer.vscode-eslint-1.4.8/client/out/extension
+[2018-05-09 00:04:04.896] [exthost1] [info] ExtensionService#_doActivateExtension sfodje.perltidy {"startup":true,"activationEvent":"*"}
+[2018-05-09 00:04:04.896] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/sfodje.perltidy-1.3.0/out/src/extension
+[2018-05-09 00:04:04.901] [exthost1] [info] eager extensions activated
+[2018-05-09 00:04:09.910] [exthost1] [info] ExtensionService#_doActivateExtension henriiik.vscode-perl {"startup":false,"activationEvent":"onLanguage:perl"}
+[2018-05-09 00:04:09.910] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/henriiik.vscode-perl-1.14.4/out/src/extension
+[2018-05-09 00:09:17.946] [exthost1] [info] ExtensionService#_doActivateExtension shakram02.bash-beautify {"startup":false,"activationEvent":"onLanguage:shellscript"}
+[2018-05-09 00:09:17.946] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/shakram02.bash-beautify-0.1.1/out/src/extension

@@ -458,19 +458,19 @@
             }
         }
     },
-    "pickerWorkingDir": "/home/humble_d/Projects/collaboration",
+    "pickerWorkingDir": "/home/humble_d/.config/i3blocks",
     "openedPathsList": {
         "workspaces": [
-            "/home/humble_d/Projects/collaboration/setup",
             "/home/humble_d/.i3_scripts/i3blocks",
+            "/home/humble_d/Projects/collaboration/setup",
             "/home/humble_d/Projects/Sandbox",
             "/home/humble_d/.config/i3",
             "/home/humble_d/Projects/collaboration/add_on/coder's calendar"
         ],
         "files": [
+            "/home/humble_d/.config/i3blocks/i3blocks_topbar.conf",
             "/home/humble_d/.config/i3blocks/i3blocks_bottombar.conf",
             "/home/humble_d/.i3_scripts/i3blocks/ssid",
-            "/home/humble_d/.config/i3blocks/i3blocks_topbar.conf",
             "/home/humble_d/.config/i3/config",
             "/home/humble_d/.i3_scripts/i3/screenshot.sh",
             "/home/humble_d/Projects/Sandbox/sample.pl",
