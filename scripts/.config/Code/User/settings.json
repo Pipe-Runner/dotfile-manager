@@ -1,7 +1,7 @@
 {
 	"workbench.colorTheme": "Palenight Operator",
 	"editor.tabSize": 4,
-	"editor.fontFamily": "Fira Code",
+	"editor.fontFamily": "Fira Code Retina",
 	"editor.fontLigatures": true,
 	"editor.insertSpaces": false,
 	"editor.lineHeight": 26,

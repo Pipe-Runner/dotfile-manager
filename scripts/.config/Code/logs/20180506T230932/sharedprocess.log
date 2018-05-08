@@ -1,0 +1,41 @@
+[2018-05-06 23:09:33.986] [sharedprocess] [info] main {"machineId":"9a9c898b4fc5c6db4f0556946ebf81be89e1ea17d22c85309a73d7d07d400d4c"}
+[2018-05-06 23:09:34.071] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-06 23:09:34.105] [sharedprocess] [info] Scanned system extensions: 65
+[2018-05-06 23:09:34.743] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-06 23:09:34.747] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-06 23:09:34.776] [sharedprocess] [info] Scanned system extensions: 65
+[2018-05-06 23:09:37.488] [sharedprocess] [info] Installing extension: material-icon-theme
+[2018-05-06 23:09:37.855] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-06 23:09:39.548] [sharedprocess] [info] Downloaded extension: material-icon-theme
+[2018-05-06 23:09:39.944] [sharedprocess] [info] Extracted extension to /home/humble_d/.vscode/extensions/PKief.material-icon-theme-3.4.0: PKief.material-icon-theme-3.4.0
+[2018-05-06 23:09:39.952] [sharedprocess] [info] Updated metadata of the extension: PKief.material-icon-theme-3.4.0
+[2018-05-06 23:09:39.952] [sharedprocess] [info] Extensions installed successfully: PKief.material-icon-theme
+[2018-05-06 23:09:40.116] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-06 23:09:40.202] [sharedprocess] [info] Scanned system extensions: 65
+[2018-05-06 23:14:37.901] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-06 23:19:37.954] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-06 23:24:38.027] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-06 23:29:38.072] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-06 23:34:38.128] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-06 23:39:38.151] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-06 23:44:38.187] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-06 23:49:38.229] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-06 23:54:38.282] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-06 23:59:38.340] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 00:04:38.395] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 00:09:40.039] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 00:14:40.085] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 00:19:40.117] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 00:24:40.156] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 00:29:40.195] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 00:34:40.252] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 00:39:40.298] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 00:44:40.351] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 00:49:40.402] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 00:54:40.458] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 00:59:40.502] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 01:04:40.541] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 01:09:41.427] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 01:14:41.481] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 01:19:41.527] [sharedprocess] [info] Scanned user extensions: 15
+[2018-05-07 01:24:41.560] [sharedprocess] [info] Scanned user extensions: 15

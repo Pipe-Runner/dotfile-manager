@@ -447,8 +447,8 @@
     "windowsState": {
         "openedWindows": [],
         "lastActiveWindow": {
-            "folderPath": "/home/humble_d/Projects/Sandbox",
-            "backupPath": "/home/humble_d/.config/Code/Backups/54c406a17de2a9329ae32b7746a6fb6e",
+            "folderPath": "/home/humble_d/Projects/collaboration/setup",
+            "backupPath": "/home/humble_d/.config/Code/Backups/0e9fac803ce5474c6f14f7e5766a1a43",
             "uiState": {
                 "mode": 1,
                 "x": 0,
@@ -462,16 +462,20 @@
     "openedPathsList": {
         "workspaces": [
             "/home/humble_d/Projects/collaboration/setup",
+            "/home/humble_d/.i3_scripts/i3blocks",
             "/home/humble_d/Projects/Sandbox",
             "/home/humble_d/.config/i3",
             "/home/humble_d/Projects/collaboration/add_on/coder's calendar"
         ],
         "files": [
+            "/home/humble_d/.config/i3blocks/i3blocks_bottombar.conf",
+            "/home/humble_d/.i3_scripts/i3blocks/ssid",
+            "/home/humble_d/.config/i3blocks/i3blocks_topbar.conf",
+            "/home/humble_d/.config/i3/config",
+            "/home/humble_d/.i3_scripts/i3/screenshot.sh",
             "/home/humble_d/Projects/Sandbox/sample.pl",
             "/home/humble_d/.i3_scripts/i3blocks/volume.sh",
-            "/home/humble_d/.config/i3blocks/i3blocks_bottombar.conf",
             "/home/humble_d/.config/rofi/rofi_theme.rasi",
-            "/home/humble_d/.config/i3/config",
             "/home/humble_d/.zshrc"
         ]
     }

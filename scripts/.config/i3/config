@@ -79,7 +79,7 @@ bindsym $mod+a focus parent
 
 # --------------------------- CUSTOM CODE --------------------------------------------------------------------------------------
 
-set $WORKSPACE_1  "1: "
+set $WORKSPACE_1  "1: "
 set $WORKSPACE_2  "2: "
 set $WORKSPACE_3  "3: "
 set $WORKSPACE_4  "4: "

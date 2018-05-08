@@ -42,3 +42,11 @@
 [2018-05-05 17:37:19.330] [exthost1] [info] eager extensions activated
 [2018-05-05 17:38:04.660] [exthost1] [info] ExtensionService#_doActivateExtension henriiik.vscode-perl {"startup":false,"activationEvent":"onLanguage:perl"}
 [2018-05-05 17:38:04.661] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/henriiik.vscode-perl-1.14.4/out/src/extension
+[2018-05-05 20:39:48.539] [exthost1] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2018-05-05 20:39:48.539] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/extension-editing/out/extension
+[2018-05-05 20:39:48.562] [exthost1] [info] ExtensionService#_doActivateExtension Microsoft.vscode-markdown {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2018-05-05 20:39:48.562] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/27/usr/share/code/resources/app/extensions/markdown/out/extension
+[2018-05-05 20:39:48.625] [exthost1] [info] ExtensionService#_doActivateExtension DavidAnson.vscode-markdownlint {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2018-05-05 20:39:48.625] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/DavidAnson.vscode-markdownlint-0.15.0/extension
+[2018-05-05 21:27:39.768] [exthost1] [info] ExtensionService#_doActivateExtension shakram02.bash-beautify {"startup":false,"activationEvent":"onLanguage:shellscript"}
+[2018-05-05 21:27:39.768] [exthost1] [info] ExtensionService#loadCommonJSModule /home/humble_d/.vscode/extensions/shakram02.bash-beautify-0.1.1/out/src/extension

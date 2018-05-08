@@ -8,31 +8,29 @@ use File::Basename;
 # ===========================================================================================================================
 sub pull(){
 	my $dirname = dirname(__FILE__);
-	# generating folder structure
-	my $stderr = `mkdir $dirname/../../scripts 2>&1`;
-	$stderr = `mkdir $dirname/../../scripts/.config 2>&1`;
+	
 	# .zshrc
-	`cp -ur ~/.zshrc $dirname/../../scripts/`;
+	`rsync -azvh ~/.zshrc $dirname/../../scripts/`;
 	# .zsh history
-	`cp -ur ~/.zsh_history $dirname/../../scripts/`;
+	`rsync -azvh ~/.zsh_history $dirname/../../scripts/`;
 	# .bashrc
-	`cp -ur ~/.bashrc $dirname/../../scripts/`;
+	`rsync -azvh ~/.bashrc $dirname/../../scripts/`;
 	# .git config
-	`cp -ur ~/.gitconfig $dirname/../../scripts/`;
+	`rsync -azvh ~/.gitconfig $dirname/../../scripts/`;
 	# vis config
-	`cp -ur ~/.config/vis $dirname/../../scripts/.config/vis`;
+	`rsync -azvh ~/.config/vis $dirname/../../scripts/.config/`;
 	# i3 config
-	`cp -ur ~/.config/i3 $dirname/../../scripts/.config/i3`;
+	`rsync -azvh ~/.config/i3 $dirname/../../scripts/.config/`;
 	# i3blocks config
-	`cp -ur ~/.config/i3blocks $dirname/../../scripts/.config/i3blocks`;
+	`rsync -azvh ~/.config/i3blocks $dirname/../../scripts/.config/`;
 	# rofi config
-	`cp -ur ~/.config/rofi $dirname/../../scripts/.config/rofi`;
+	`rsync -azvh ~/.config/rofi $dirname/../../scripts/.config/`;
 	# VS Code config
-	`cp -ur ~/.config/Code $dirname/../../scripts/.config/Code`;
+	`rsync -azvh ~/.config/Code $dirname/../../scripts/.config/`;
 	# i3 scripts
-	`cp -ur ~/.i3_scripts $dirname/../../scripts/`;
+	`rsync -azvh --exclude ".git" ~/.i3_scripts $dirname/../../scripts/`;
 	# fonts
-	`cp -ur ~/.fonts $dirname/../../scripts/`;
+	`rsync -azvh ~/.fonts $dirname/../../scripts/`;
 }
 
 # ===========================================================================================================================

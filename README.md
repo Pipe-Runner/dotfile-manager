@@ -26,6 +26,7 @@ sudo apt-get install aria2
 sudo apt-get install lxappearance
 sudo apt-get install feh
 sudo apt-get install blueman
+sudo apt-get install arandr
 ```
 
 #### Task 2: Adding git credentials
