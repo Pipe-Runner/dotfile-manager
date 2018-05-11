@@ -447,8 +447,8 @@
     "windowsState": {
         "openedWindows": [],
         "lastActiveWindow": {
-            "folderPath": "/home/humble_d/Projects/collaboration/setup",
-            "backupPath": "/home/humble_d/.config/Code/Backups/0e9fac803ce5474c6f14f7e5766a1a43",
+            "folderPath": "/home/humble_d/Projects/C++",
+            "backupPath": "/home/humble_d/.config/Code/Backups/f224155af2f857a1eb05c9bad4c8da16",
             "uiState": {
                 "mode": 1,
                 "x": 0,
@@ -458,9 +458,10 @@
             }
         }
     },
-    "pickerWorkingDir": "/home/humble_d/.config/i3blocks",
+    "pickerWorkingDir": "/home/humble_d/Projects/collaboration/setup",
     "openedPathsList": {
         "workspaces": [
+            "/home/humble_d/Projects/C++",
             "/home/humble_d/.i3_scripts/i3blocks",
             "/home/humble_d/Projects/collaboration/setup",
             "/home/humble_d/Projects/Sandbox",
@@ -468,6 +469,7 @@
             "/home/humble_d/Projects/collaboration/add_on/coder's calendar"
         ],
         "files": [
+            "/home/humble_d/Projects/collaboration/setup/README.md",
             "/home/humble_d/.config/i3blocks/i3blocks_topbar.conf",
             "/home/humble_d/.config/i3blocks/i3blocks_bottombar.conf",
             "/home/humble_d/.i3_scripts/i3blocks/ssid",

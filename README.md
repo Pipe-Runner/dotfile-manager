@@ -27,6 +27,7 @@ sudo apt-get install lxappearance
 sudo apt-get install feh
 sudo apt-get install blueman
 sudo apt-get install arandr
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 
 #### Task 2: Adding git credentials
@@ -115,3 +116,8 @@ https://www.reddit.com/r/i3wm/comments/516e8c/tap_to_click_touchpad/?st=jgqkx25d
 https://www.gnome-look.org/p/1013698/-  
 
 https://forum.lxde.org/viewtopic.php?t=326#p1068
+
+#### Task 14: Install LTS node and change make it default, update npm
+nvm install --lts
+nvm use --lts
+npm -i -g npm
