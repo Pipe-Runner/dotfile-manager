@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ -f /tmp/mouse_check ]
+then
+    echo ''
+    echo ''
+    echo "#FD971F"
+else
+    echo ''
+    echo ''
+    echo "#F4BF75"
+fi
