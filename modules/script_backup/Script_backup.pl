@@ -25,10 +25,8 @@ sub pull(){
 	`rsync -azvh ~/.config/i3blocks $dirname/../../scripts/.config/`;
 	# rofi config
 	`rsync -azvh ~/.config/rofi $dirname/../../scripts/.config/`;
-	# VS Code config
-	`rsync -azvh ~/.config/Code $dirname/../../scripts/.config/`;
 	# i3 scripts
-	`rsync -azvh --exclude ".git" ~/.i3_scripts $dirname/../../scripts/`;
+	`rsync -azvh --exclude=.git --exclude=README.md ~/.i3_scripts $dirname/../../scripts/`;
 	# fonts
 	`rsync -azvh ~/.fonts $dirname/../../scripts/`;
 }

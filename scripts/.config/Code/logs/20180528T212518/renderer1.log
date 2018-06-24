@@ -1,6 +1,0 @@
-[2018-05-28 21:25:24.882] [renderer1] [error] spawn react-native ENOENT: Error: spawn react-native ENOENT
-	at exports._errnoException (util.js:1050:11)
-	at Process.ChildProcess._handle.onexit (internal/child_process.js:193:32)
-	at onErrorNT (internal/child_process.js:367:16)
-	at _combinedTickCallback (internal/process/next_tick.js:80:11)
-	at process._tickCallback (internal/process/next_tick.js:104:9)
