@@ -1,0 +1,18 @@
+[Error - 21:11:34] Connection to server got closed. Server will not be restarted.
+[Error - 21:11:34] Request textDocument/hover failed.
+Error: Connection got disposed.
+	at Object.dispose (/home/humble_d/.vscode/extensions/ms-vscode.cpptools-0.17.4/node_modules/vscode-jsonrpc/lib/main.js:825:25)
+	at Object.dispose (/home/humble_d/.vscode/extensions/ms-vscode.cpptools-0.17.4/node_modules/vscode-languageclient/lib/client.js:57:35)
+	at LanguageClient.handleConnectionClosed (/home/humble_d/.vscode/extensions/ms-vscode.cpptools-0.17.4/node_modules/vscode-languageclient/lib/client.js:1864:38)
+	at LanguageClient.handleConnectionClosed (/home/humble_d/.vscode/extensions/ms-vscode.cpptools-0.17.4/node_modules/vscode-languageclient/lib/main.js:106:15)
+	at closeHandler (/home/humble_d/.vscode/extensions/ms-vscode.cpptools-0.17.4/node_modules/vscode-languageclient/lib/client.js:1852:18)
+	at CallbackList.invoke (/home/humble_d/.vscode/extensions/ms-vscode.cpptools-0.17.4/node_modules/vscode-jsonrpc/lib/events.js:71:39)
+	at Emitter.fire (/home/humble_d/.vscode/extensions/ms-vscode.cpptools-0.17.4/node_modules/vscode-jsonrpc/lib/events.js:135:36)
+	at closeHandler (/home/humble_d/.vscode/extensions/ms-vscode.cpptools-0.17.4/node_modules/vscode-jsonrpc/lib/main.js:221:26)
+	at CallbackList.invoke (/home/humble_d/.vscode/extensions/ms-vscode.cpptools-0.17.4/node_modules/vscode-jsonrpc/lib/events.js:71:39)
+	at Emitter.fire (/home/humble_d/.vscode/extensions/ms-vscode.cpptools-0.17.4/node_modules/vscode-jsonrpc/lib/events.js:135:36)
+	at StreamMessageReader.AbstractMessageReader.fireClose (/home/humble_d/.vscode/extensions/ms-vscode.cpptools-0.17.4/node_modules/vscode-jsonrpc/lib/messageReader.js:135:27)
+	at Socket.<anonymous> (/home/humble_d/.vscode/extensions/ms-vscode.cpptools-0.17.4/node_modules/vscode-jsonrpc/lib/messageReader.js:188:62)
+	at emitOne (events.js:101:20)
+	at Socket.emit (events.js:191:7)
+	at Pipe._handle.close [as _onclose] (net.js:510:12)

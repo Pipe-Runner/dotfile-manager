@@ -94,3 +94,9 @@ export NVM_DIR="$HOME/.nvm"
 
 # mozilla configuration file
 # export MOZCONFIG=~/Projects/collaboration/Firefox_src/mozilla-unified/mozconfig
+
+# android sdk path
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools

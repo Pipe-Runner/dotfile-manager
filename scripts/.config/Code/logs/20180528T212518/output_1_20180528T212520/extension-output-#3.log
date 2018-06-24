@@ -1,0 +1,10 @@
+[Info  - 21:25:23] ESLint server is running.
+[Info  - 21:25:23] 
+Failed to load the ESLint library for the document /home/humble_d/Projects/react-native/samsung_remote_app/components/Home/Home.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder samsung_remote_app
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder samsung_remote_app by executing the 'Disable ESLint' command.

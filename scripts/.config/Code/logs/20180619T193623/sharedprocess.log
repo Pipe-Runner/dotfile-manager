@@ -1,0 +1,29 @@
+[2018-06-19 19:36:25.455] [sharedprocess] [info] main {"machineId":"9a9c898b4fc5c6db4f0556946ebf81be89e1ea17d22c85309a73d7d07d400d4c"}
+[2018-06-19 19:36:25.548] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 19:36:25.601] [sharedprocess] [info] Scanned system extensions: 69
+[2018-06-19 19:36:26.415] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 19:36:26.425] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 19:36:26.452] [sharedprocess] [info] Scanned system extensions: 69
+[2018-06-19 19:36:28.913] [sharedprocess] [info] Installing extension: java
+[2018-06-19 19:36:28.934] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 19:36:29.568] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 19:36:41.783] [sharedprocess] [info] Downloaded extension: java
+[2018-06-19 19:36:42.741] [sharedprocess] [info] Extracted extension to /home/humble_d/.vscode/extensions/.redhat.java-0.27.0: redhat.java-0.27.0
+[2018-06-19 19:36:42.741] [sharedprocess] [info] Renamed to /home/humble_d/.vscode/extensions/redhat.java-0.27.0
+[2018-06-19 19:36:42.741] [sharedprocess] [info] Installation completed. redhat.java-0.27.0
+[2018-06-19 19:36:42.749] [sharedprocess] [info] Extensions installed successfully: redhat.java
+[2018-06-19 19:36:42.924] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 19:36:42.991] [sharedprocess] [info] Scanned system extensions: 69
+[2018-06-19 19:37:05.472] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-06-19 19:41:29.615] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 19:46:29.685] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 19:51:29.781] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 19:56:29.817] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 20:01:29.885] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 20:06:29.958] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 20:11:30.039] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 20:16:30.096] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 20:21:30.140] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 20:26:30.177] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 20:31:30.222] [sharedprocess] [info] Scanned user extensions: 17
+[2018-06-19 20:36:30.445] [sharedprocess] [info] Scanned user extensions: 17

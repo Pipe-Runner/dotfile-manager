@@ -36,10 +36,10 @@
             "label": "Ctrl+Shift+S",
             "isNative": true
         },
-        "workbench.action.openGlobalSettings": {
-            "id": "workbench.action.openGlobalSettings",
+        "workbench.action.openSettings": {
+            "id": "workbench.action.openSettings",
             "label": "Ctrl+,",
-            "isNative": false
+            "isNative": true
         },
         "workbench.action.openGlobalKeybindings": {
             "id": "workbench.action.openGlobalKeybindings",
@@ -134,7 +134,7 @@
         "editor.action.commentLine": {
             "id": "editor.action.commentLine",
             "label": "Ctrl+/",
-            "isNative": false
+            "isNative": true
         },
         "editor.action.blockComment": {
             "id": "editor.action.blockComment",
@@ -239,7 +239,7 @@
         "workbench.action.terminal.toggleTerminal": {
             "id": "workbench.action.terminal.toggleTerminal",
             "label": "Ctrl+`",
-            "isNative": false
+            "isNative": true
         },
         "workbench.actions.view.problems": {
             "id": "workbench.actions.view.problems",
@@ -264,7 +264,7 @@
         "workbench.action.splitEditor": {
             "id": "workbench.action.splitEditor",
             "label": "Ctrl+\\",
-            "isNative": false
+            "isNative": true
         },
         "workbench.action.toggleEditorGroupLayout": {
             "id": "workbench.action.toggleEditorGroupLayout",
@@ -289,12 +289,12 @@
         "workbench.action.zoomIn": {
             "id": "workbench.action.zoomIn",
             "label": "Ctrl+=",
-            "isNative": false
+            "isNative": true
         },
         "workbench.action.zoomOut": {
             "id": "workbench.action.zoomOut",
             "label": "Ctrl+-",
-            "isNative": false
+            "isNative": true
         },
         "workbench.action.zoomReset": {
             "id": "workbench.action.zoomReset",
@@ -304,12 +304,12 @@
         "workbench.action.navigateBack": {
             "id": "workbench.action.navigateBack",
             "label": "Ctrl+Alt+-",
-            "isNative": false
+            "isNative": true
         },
         "workbench.action.navigateForward": {
             "id": "workbench.action.navigateForward",
             "label": "Ctrl+Shift+-",
-            "isNative": false
+            "isNative": true
         },
         "workbench.action.nextEditor": {
             "id": "workbench.action.nextEditor",
@@ -447,8 +447,8 @@
     "windowsState": {
         "openedWindows": [],
         "lastActiveWindow": {
-            "folderPath": "/home/humble_d/Projects/C++",
-            "backupPath": "/home/humble_d/.config/Code/Backups/f224155af2f857a1eb05c9bad4c8da16",
+            "folderPath": "/home/humble_d/Downloads/sfb",
+            "backupPath": "/home/humble_d/.config/Code/Backups/3e04ed629b5379da06f2ad39e124da11",
             "uiState": {
                 "mode": 1,
                 "x": 0,
@@ -458,17 +458,30 @@
             }
         }
     },
-    "pickerWorkingDir": "/home/humble_d/Projects/collaboration/setup",
+    "pickerWorkingDir": "/home/humble_d/Downloads",
     "openedPathsList": {
         "workspaces": [
+            "/home/humble_d/Downloads/sfb",
             "/home/humble_d/Projects/C++",
+            "/home/humble_d/Projects/Sandbox/ms-project-front-end",
+            "/home/humble_d/Projects/Sandbox/Simple-Web-Server",
+            "/home/humble_d/Projects/Sandbox/sample_cmake",
+            "/home/humble_d/Projects/react-native/samsung_remote_app",
+            "/home/humble_d/Projects/NodeJS Projects/samsung_tv_server",
+            "/home/humble_d/Projects/collaboration/add_on/react-moz-addon-boilterplate",
+            "/home/humble_d/Projects/fullstack_project/under_35",
+            "/home/humble_d/Projects/collaboration/add_on/coder's calendar",
+            "/home/humble_d/Projects/fullstack_project/Indian_achievers_stroy_repo/platform_frontend",
             "/home/humble_d/.i3_scripts/i3blocks",
             "/home/humble_d/Projects/collaboration/setup",
             "/home/humble_d/Projects/Sandbox",
-            "/home/humble_d/.config/i3",
-            "/home/humble_d/Projects/collaboration/add_on/coder's calendar"
+            "/home/humble_d/.config/i3"
         ],
         "files": [
+            "/home/humble_d/Projects/C++/output.txt",
+            "/home/humble_d/Projects/Sandbox/cmake_sample/CMakeLists.txt",
+            "/home/humble_d/Projects/Sandbox/cmake_sample/CMakeCache.txt",
+            "/home/humble_d/Projects/Sandbox/Simple-Web-Server/http_examples.cpp",
             "/home/humble_d/Projects/collaboration/setup/README.md",
             "/home/humble_d/.config/i3blocks/i3blocks_topbar.conf",
             "/home/humble_d/.config/i3blocks/i3blocks_bottombar.conf",
