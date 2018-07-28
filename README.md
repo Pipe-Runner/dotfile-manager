@@ -27,6 +27,7 @@ sudo apt-get install lxappearance
 sudo apt-get install feh
 sudo apt-get install blueman
 sudo apt-get install arandr
+sudo apt-get install brightnessctl
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 
