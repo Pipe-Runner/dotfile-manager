@@ -17,11 +17,11 @@ The set of programs that the install scripts covers are as follows:
 
 #### Task 1: Basic utilities  
 ```shell
-sudo apt-get rofi
+sudo apt-get install rofi
 sudo apt-get install thunar
 sudo apt-get install git
 sudo apt-get install wget
-sudo apt-get winff
+sudo apt-get install winff
 sudo apt-get install aria2
 sudo apt-get install lxappearance
 sudo apt-get install feh
@@ -92,7 +92,9 @@ sudo apt install python2.7 python-pip
 
 #### Task 10: Install i3-gaps & i3blocks
 ```shell
-sudo apt-get intall libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf libxcb-xrm0 libxcb-xrm-dev automake
+sudo apt-get install i3blocks
+
+sudo apt-get install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf libxcb-xrm0 libxcb-xrm-dev automake
 git clone https://www.github.com/Airblader/i3 i3-gaps
 cd i3-gaps
 autoreconf --force --install
@@ -101,9 +103,8 @@ mkdir -p build && cd build/
 ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
 make
 sudo make install
-
-sudo apt-get install i3blocks
 ```
+**Note:** Before installing i3-gaps, make sure to uninstall i3-wm that gets installed automatically by i3blocks.
 
 ### Manual Tasks
 
@@ -122,3 +123,5 @@ https://forum.lxde.org/viewtopic.php?t=326#p1068
 nvm install --lts
 nvm use --lts
 npm -i -g npm
+
+**Note:** Directly copying *.theme* and *.icons* will not work, they need to be reinstalled. Just extract the zipped file and paste them in their respective directories.
