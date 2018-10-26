@@ -100,3 +100,8 @@ export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# QT framework path
+export PATH="/home/humble_d/Library/Qt/5.11.2/gcc_64/bin:$PATH"
+
+LD_LIBRARY_PATH="/opt/Qt/5.11.2/gcc_64/lib"

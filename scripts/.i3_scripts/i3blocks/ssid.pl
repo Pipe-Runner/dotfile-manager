@@ -1,6 +1,15 @@
 #!/usr/bin/perl
+
 use strict;
 use warnings;
+
+my ( $arg_fg, $arg_warning_fg, $arg_bg, $arg_prev_widget_bg ) = @ARGV;
+
+sub pango_template
+{
+	my ( $value, $background_color, $background_color_prev, $separator ) = @_;
+	return "<span foreground='$background_color' background='$background_color_prev'>$separator</span><span background='$background_color'>$value</span>";
+}
 
 my @output = split("\n",`nmcli`);
 
@@ -24,22 +33,19 @@ for my $line(@output){
 
 my $display = "";
 if( $wifi eq "" && $foundWifi == 0 ){
-    $display = $display.'<span foreground="#FF80AB">﬉ N/A</span>';
+    $display = $display."<span foreground='$arg_warning_fg'> ﬉ N/A</span>";
 }
 else{
     my @temp = split(" ",`nmcli device wifi list | grep "*"`);
     my $signal = $temp[6];
-    $display = $display.'<span foreground="#81D4FA">﬉ '.$signal.'%'.' - '.$wifi.'</span>';
+    $display = $display."<span foreground='$arg_fg'> ﬉ ".$signal.'%'." - ".$wifi."</span>";
 }
-
-$display = $display."  ";
 
 if( $lan eq "" && $foundLan == 0 ){
-    $display = $display.'<span foreground="#FF80AB"> N/A</span>';
+    $display = $display."<span foreground='$arg_warning_fg'>  N/A </span>";
 }
 else{
-    $display = $display.'<span foreground="#81D4FA"> '.$lan.'</span>';
+    $display = $display."<span foreground='$arg_fg'>  ".$lan." </span>";
 }
-
-$display = $display."\n";
-print $display;
+;
+print pango_template( $display, $arg_bg, $arg_prev_widget_bg, "" );
