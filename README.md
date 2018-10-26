@@ -28,6 +28,7 @@ sudo apt-get install feh
 sudo apt-get install blueman
 sudo apt-get install arandr
 sudo apt-get install brightnessctl
+sudo apt-get install gnome-tweak-tool
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 
@@ -125,3 +126,4 @@ nvm use --lts
 npm -i -g npm
 
 **Note:** Directly copying *.theme* and *.icons* will not work, they need to be reinstalled. Just extract the zipped file and paste them in their respective directories.
+Please use this https://askubuntu.com/questions/1035975/cant-use-installed-fonts-in-gnome-terminal to set nerd fonts on the gnome terminal.
