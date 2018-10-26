@@ -17,16 +17,18 @@ The set of programs that the install scripts covers are as follows:
 
 #### Task 1: Basic utilities  
 ```shell
-sudo apt-get rofi
+sudo apt-get install rofi
 sudo apt-get install thunar
 sudo apt-get install git
 sudo apt-get install wget
-sudo apt-get winff
+sudo apt-get install winff
 sudo apt-get install aria2
 sudo apt-get install lxappearance
 sudo apt-get install feh
 sudo apt-get install blueman
 sudo apt-get install arandr
+sudo apt-get install brightnessctl
+sudo apt-get install gnome-tweak-tool
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 
@@ -40,6 +42,10 @@ git config --global user.email "aakashs.mallik.cse15@itbhu.ac.in"
 ```shell
 sudo fc-cache -f -v ~/.fonts
 ```
+**Note:** There are three types of fonts being used in our case. 
+1. *FiraCode Retina* for VS Code. 
+2. *SauceCodePro Nerd Font Regular* for i3-wm.
+3. *FuraCode Nerd Font Regular* for gnome-tweak which basically applies to the terminal. (We will disable custom fonts for gnome terminal via preference)
 
 #### Task 4: Installing zsh and make it default ( Requires re-login )
 ```shell
@@ -91,7 +97,9 @@ sudo apt install python2.7 python-pip
 
 #### Task 10: Install i3-gaps & i3blocks
 ```shell
-sudo apt-get intall libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf libxcb-xrm0 libxcb-xrm-dev automake
+sudo apt-get install i3blocks
+
+sudo apt-get install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf libxcb-xrm0 libxcb-xrm-dev automake
 git clone https://www.github.com/Airblader/i3 i3-gaps
 cd i3-gaps
 autoreconf --force --install
@@ -100,9 +108,8 @@ mkdir -p build && cd build/
 ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
 make
 sudo make install
-
-sudo apt-get install i3blocks
 ```
+**Note:** Before installing i3-gaps, make sure to uninstall i3-wm that gets installed automatically by i3blocks.
 
 ### Manual Tasks
 
@@ -125,5 +132,7 @@ npm -i -g npm
 #### Task 15: Install Gparted utility
 sudo apt-get install gparted
 
-#### Task 14: Install brightness control utility
+#### Task 16: Install brightness control utility
 sudo apt-get install brightnessctl
+**Note:** Directly copying *.theme* and *.icons* will not work, they need to be reinstalled. Just extract the zipped file and paste them in their respective directories.
+Please use this https://askubuntu.com/questions/1035975/cant-use-installed-fonts-in-gnome-terminal to set nerd fonts on the gnome terminal.
