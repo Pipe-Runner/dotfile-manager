@@ -45,7 +45,7 @@ sudo fc-cache -f -v ~/.fonts
 **Note:** There are three types of fonts being used in our case. 
 1. *FiraCode Retina* for VS Code. 
 2. *SauceCodePro Nerd Font Regular* for i3-wm.
-3. *SourceCodePro Nerd Nerd Font Regular* for gnome-tweak which basically applies to the terminal. (We will disable custom fonts for gnome terminal via preference)
+3. *FuraCode Nerd Font Regular* for gnome-tweak which basically applies to the terminal. (We will disable custom fonts for gnome terminal via preference)
 
 #### Task 4: Installing zsh and make it default ( Requires re-login )
 ```shell
