@@ -132,8 +132,8 @@ npm -i -g npm
 #### Task 15: Install Gparted utility
 sudo apt-get install gparted
 
-#### Task 16: Install FlowBlade
-sudo apt-get install flowblade
+#### Task 16: Install OpenShot
+sudo apt-get install openshot
 
 #### Task 16: Install brightness control utility
 sudo apt-get install brightnessctl
