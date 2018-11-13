@@ -132,6 +132,9 @@ npm -i -g npm
 #### Task 15: Install Gparted utility
 sudo apt-get install gparted
 
+### Task 16: Install FlowBlade
+sudo apt-get install flowblade
+
 #### Task 16: Install brightness control utility
 sudo apt-get install brightnessctl
 **Note:** Directly copying *.theme* and *.icons* will not work, they need to be reinstalled. Just extract the zipped file and paste them in their respective directories.
