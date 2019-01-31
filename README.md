@@ -142,3 +142,6 @@ Please use this https://askubuntu.com/questions/1035975/cant-use-installed-fonts
 
 #### Task 17: Install OpenRazer and frontend
 https://openrazer.github.io/
+
+#### Task 18: Install QuteBrowser
+sudo apt install qutebrowser
