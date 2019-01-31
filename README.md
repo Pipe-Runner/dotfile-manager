@@ -125,18 +125,26 @@ https://www.gnome-look.org/p/1013698/-
 https://forum.lxde.org/viewtopic.php?t=326#p1068
 
 #### Task 14: Install LTS node and change make it default, update npm
+```shell
 nvm install --lts
 nvm use --lts
 npm -i -g npm
+```
 
 #### Task 15: Install Gparted utility
+```shell
 sudo apt-get install gparted
+```
 
 #### Task 16: Install OpenShot
+```shell
 sudo apt-get install openshot
+```
 
 #### Task 16: Install brightness control utility
+```shell
 sudo apt-get install brightnessctl
+```
 **Note:** Directly copying *.theme* and *.icons* will not work, they need to be reinstalled. Just extract the zipped file and paste them in their respective directories.
 Please use this https://askubuntu.com/questions/1035975/cant-use-installed-fonts-in-gnome-terminal to set nerd fonts on the gnome terminal.
 
@@ -144,4 +152,6 @@ Please use this https://askubuntu.com/questions/1035975/cant-use-installed-fonts
 https://openrazer.github.io/
 
 #### Task 18: Install QuteBrowser
+```shell
 sudo apt install qutebrowser
+```
