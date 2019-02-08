@@ -17,6 +17,7 @@ The set of programs that the install scripts covers are as follows:
 
 #### Task 1: Basic utilities  
 ```shell
+sudo apt-get install unclutter
 sudo apt-get install rofi
 sudo apt-get install thunar
 sudo apt-get install git
