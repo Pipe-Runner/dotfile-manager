@@ -156,3 +156,6 @@ https://openrazer.github.io/
 ```shell
 sudo apt install qutebrowser
 ```
+
+#### Task 19: Setup vim-plug
+Follow instructions at https://github.com/junegunn/vim-plug
