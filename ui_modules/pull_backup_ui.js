@@ -8,9 +8,7 @@ const find_external_devices_utils = require('../utils/find_external_devices_util
 
 module.exports = {
 	run: async () => {
-		let dirs = [];
-		let destination = '';
-		let devices = await find_external_devices_utils.list_devices();
+		const devices = await find_external_devices_utils.list_devices();
 
 		if (devices.length === 0) {
 			console.log(chalk.red('No mounted external device found! Please try again.'));
@@ -68,8 +66,8 @@ module.exports = {
 					name: 'directoryName',
 					default: 'backup',
 					message: 'Name of the backup directory',
-					validate: (answer) => {
-						return answer ? true: 'Please enter a valid name';
+					validate: answer => {
+						return answer ? true : 'Please enter a valid name';
 					},
 				},
 			])
