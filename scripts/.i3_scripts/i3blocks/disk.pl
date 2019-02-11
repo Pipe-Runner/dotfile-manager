@@ -11,9 +11,14 @@ sub pango_template
 	return "<span foreground='$background_color' background='$background_color_prev'>$separator</span><span foreground='$foreground_color' background='$background_color'> $icon $value </span>";
 }
 
-my $current_brightness = `brightnessctl get`;
-my $max_brightness = `brightnessctl max`;
+my @command_output = split( '\n', `df /` );
 
-my $brightness_percentage = ($current_brightness/$max_brightness) * 100;
+my @disk_data = split( ' ', $command_output[1] );
 
-print pango_template( $brightness_percentage.'%', $arg_fg, $arg_bg, $arg_prev_widget_bg, "", "" );
+# the data is in units of 1024MB, ie. 1KB
+my $space_left = sprintf( '%.1f', $disk_data[3] / ( 1024 * 1024 ) );
+my $total = sprintf( '%.1f', $disk_data[1] / ( 1024 * 1024 ) );
+
+my $display = "$space_left\G / $total\G";
+
+print pango_template( $display, $arg_fg, $arg_bg, $arg_prev_widget_bg, "", "" );

@@ -48,4 +48,4 @@ else{
     $display = $display."<span foreground='$arg_fg'>  ".$lan." </span>";
 }
 ;
-print pango_template( $display, $arg_bg, $arg_prev_widget_bg, "" );
+print pango_template( $display, $arg_bg, $arg_prev_widget_bg, "" );

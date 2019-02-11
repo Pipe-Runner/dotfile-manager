@@ -1,0 +1,29 @@
+{
+  "name": "dotfile-reinstaller-kit",
+  "version": "1.0.0",
+  "description": "The kit is designed to assist me ( Aakash Mallik ) during re-installation. This will help me get my system up and running under 30mins as soon as my disto installation finishes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AakashMallik/dotfile-reinstaller-kit.git"
+  },
+  "author": "Aakash Mallik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AakashMallik/dotfile-reinstaller-kit/issues"
+  },
+  "homepage": "https://github.com/AakashMallik/dotfile-reinstaller-kit#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.0.1",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0",
+    "shelljs": "^0.8.3"
+  }
+}

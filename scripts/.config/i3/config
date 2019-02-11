@@ -343,6 +343,9 @@ exec xrandr --output eDP1 --primary --auto --output DP1 --off
 
 # start compton
 exec compton -f
+
+# remove mouse cursor
+# exec_always unclutter -idle 0.01 -root
 # ======================================================================================================
 #                          
 # ======================================================================================================

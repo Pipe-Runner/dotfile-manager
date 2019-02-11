@@ -1,0 +1,6 @@
+/home/humble_d/.i3_scripts/i3_manager/build/CMakeFiles/rebuild_cache.dir
+/home/humble_d/.i3_scripts/i3_manager/build/CMakeFiles/binary.dir
+/home/humble_d/.i3_scripts/i3_manager/build/CMakeFiles/edit_cache.dir
+/home/humble_d/.i3_scripts/i3_manager/build/i3ipc++/CMakeFiles/rebuild_cache.dir
+/home/humble_d/.i3_scripts/i3_manager/build/i3ipc++/CMakeFiles/i3ipc++.dir
+/home/humble_d/.i3_scripts/i3_manager/build/i3ipc++/CMakeFiles/edit_cache.dir

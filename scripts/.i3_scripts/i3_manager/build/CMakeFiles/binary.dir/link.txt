@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/binary.dir/src/main.cpp.o CMakeFiles/binary.dir/src/util.cpp.o  -o binary -lsigc-2.0 -ljsoncpp i3ipc++/libi3ipc++.a -lsigc-2.0 -ljsoncpp 

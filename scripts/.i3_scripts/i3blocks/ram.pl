@@ -11,9 +11,13 @@ sub pango_template
 	return "<span foreground='$background_color' background='$background_color_prev'>$separator</span><span foreground='$foreground_color' background='$background_color'> $icon $value </span>";
 }
 
-my $current_brightness = `brightnessctl get`;
-my $max_brightness = `brightnessctl max`;
+my @command_output = split( '\n', `free -m` );
 
-my $brightness_percentage = ($current_brightness/$max_brightness) * 100;
+my @data = split( ' ', $command_output[1] );
 
-print pango_template( $brightness_percentage.'%', $arg_fg, $arg_bg, $arg_prev_widget_bg, "", "" );
+my $total = sprintf( '%.1f', $data[1] / 1024 );
+my $free = sprintf( '%.1f', $data[6] / 1024 );
+
+my $display = "$free\G / $total\G";
+
+print pango_template( $display, $arg_fg, $arg_bg, $arg_prev_widget_bg, "", "" );

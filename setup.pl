@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
-require "./modules/data_backup/Data_backup.pl";
-require "./modules/script_backup/Script_backup.pl";
+require "./perl_modules/data_backup/Data_backup.pl";
+require "./perl_modules/script_backup/Script_backup.pl";
 
 print "=========================== Utility 2.0 =============================\n";
 

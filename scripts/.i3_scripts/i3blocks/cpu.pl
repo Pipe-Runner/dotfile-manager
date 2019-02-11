@@ -11,9 +11,8 @@ sub pango_template
 	return "<span foreground='$background_color' background='$background_color_prev'>$separator</span><span foreground='$foreground_color' background='$background_color'> $icon $value </span>";
 }
 
-my $current_brightness = `brightnessctl get`;
-my $max_brightness = `brightnessctl max`;
+my $command_output = sprintf( '%.1f', `grep "cpu" /proc/stat | awk '{usage=(\$2+\$4)*100/(\$2+\$4+\$5)} END {print usage}'`);
 
-my $brightness_percentage = ($current_brightness/$max_brightness) * 100;
+my $display = "$command_output%";
 
-print pango_template( $brightness_percentage.'%', $arg_fg, $arg_bg, $arg_prev_widget_bg, "", "" );
+print pango_template( $display, $arg_fg, $arg_bg, $arg_prev_widget_bg, "", "" );

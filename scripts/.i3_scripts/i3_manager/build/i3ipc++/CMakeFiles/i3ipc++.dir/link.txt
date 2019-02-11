@@ -1,0 +1,2 @@
+/usr/bin/ar qc libi3ipc++.a  CMakeFiles/i3ipc++.dir/src/ipc-util.cpp.o CMakeFiles/i3ipc++.dir/src/ipc.cpp.o
+/usr/bin/ranlib libi3ipc++.a

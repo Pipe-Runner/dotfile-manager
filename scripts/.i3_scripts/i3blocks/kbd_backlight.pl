@@ -15,4 +15,4 @@ sub pango_template
 my $command_output = `cat /sys/class/leds/dell::kbd_backlight/brightness`;
 chomp($command_output);
 
-print pango_template( $command_output, $arg_fg, $arg_bg, $arg_prev_widget_bg, "", "" );
+print pango_template( $command_output, $arg_fg, $arg_bg, $arg_prev_widget_bg, "", "" );

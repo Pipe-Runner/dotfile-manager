@@ -14,4 +14,4 @@ sub pango_template
 my $command_output = `date '+\%a \%d \%b \%Y'`;
 chomp( $command_output );
 
-print pango_template( $command_output, $arg_fg, $arg_bg, $arg_prev_widget_bg, "", "" );
+print pango_template( $command_output, $arg_fg, $arg_bg, $arg_prev_widget_bg, "", "" );
