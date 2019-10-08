@@ -113,6 +113,11 @@ sudo make install
 ```
 **Note:** Before installing i3-gaps, make sure to uninstall i3-wm that gets installed automatically by i3blocks.
 
+#### Task 11: Install i3-lock
+```shell
+sudo apt install i3lock fortune
+```
+
 ### Manual Tasks
 
 #### Task 11: Cli-vis
