@@ -30,6 +30,7 @@ sudo apt-get install blueman
 sudo apt-get install arandr
 sudo apt-get install brightnessctl
 sudo apt-get install gnome-tweak-tool
+sudo apt install screenfetch
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 ```
 
@@ -111,6 +112,11 @@ make
 sudo make install
 ```
 **Note:** Before installing i3-gaps, make sure to uninstall i3-wm that gets installed automatically by i3blocks.
+
+#### Task 11: Install i3-lock
+```shell
+sudo apt install i3lock fortune
+```
 
 ### Manual Tasks
 
